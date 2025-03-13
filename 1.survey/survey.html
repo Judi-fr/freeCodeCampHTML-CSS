@@ -17,10 +17,21 @@
       </header>
       <main class="main">
         <form action="" class="survey-form">
-          <p class="textos">Nombre:</p>
+          <p class="textos">Nombre</p>
           <input type="text" name="Name" placeholder="Enter your name" class="inputs">
-          <p class="textos">Nombre:</p>
-          <input type="text" name="Name" placeholder="Enter your name" class="inputs">
+          <p class="textos">Email</p>
+          <input type="email" name="email" placeholder="Enter your Email" class="inputs">
+          <p class="textos">Age (<span style="font-size: 16px;">optional</span>)</p>
+          <input type="number" name="Age" placeholder="Age" min="10" max="99" class="inputs">
+          <p class="textos">Que opcion describe tu rol actual respecto a la programacion?</p>
+          <select class="inputs">
+            <option disabled selected value>Selecciona tu rol actual</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+            <option value="PreferNo">Prefiero no decirlo</option>
+            <option value="otro">Otro</option>
+          </select>
         </form>
       </main>
     </div>

@@ -38,9 +38,9 @@
 }
 
 .survey-form{
-  margin-left: 25px;
+  margin-left: 10px;
   margin-top: 10px;
-  width: 670px;
+  width: 700px;
   height: 1220px;
   background-color:rgb(38, 84, 124);
   border-radius: 3px;
@@ -50,7 +50,7 @@
 .textos{
   text-align: left;
   font-weight:700;
-  font-size: 22px;
+  font-size: 18px;
   font-family: sans-serif;
   color: rgb(0, 0, 0);
   margin-left: 5px;
