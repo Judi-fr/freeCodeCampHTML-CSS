@@ -9,6 +9,7 @@
     <link href="stylesheet.css" rel="stylesheet">
   </head>
   <body class="cuerpito">
+    <img src="foto.jpg" class="foto">
     <div class="contenedor">
       <header class="header">
         <H1 class="title"><span style="font-family:Pixelify Sans; font-size: 40px;">FreeCodeCamp.com</span>
@@ -19,19 +20,36 @@
         <form action="" class="survey-form">
           <p class="textos">Nombre</p>
           <input type="text" name="Name" placeholder="Enter your name" class="inputs">
+          
           <p class="textos">Email</p>
           <input type="email" name="email" placeholder="Enter your Email" class="inputs">
+
           <p class="textos">Age (<span style="font-size: 16px;">optional</span>)</p>
           <input type="number" name="Age" placeholder="Age" min="10" max="99" class="inputs">
+          
           <p class="textos">Que opcion describe tu rol actual respecto a la programacion?</p>
-          <select class="inputs">
-            <option disabled selected value>Selecciona tu rol actual</option>
+          <select class="inputs" style="width: 658px;height: 32px; display: block;">
+            <option disabled selected value style="color: #757575;">Selecciona tu rol actual</option>
             <option value="estudiante">Estudiante</option>
             <option value="junior">Junior</option>
             <option value="senior">Senior</option>
             <option value="PreferNo">Prefiero no decirlo</option>
             <option value="otro">Otro</option>
           </select>
+
+          <p class="textos">Recomendarias FreeCodeCamp a otro dev?</p>
+          <label>
+            <input type="radio" class="input-radio" name="recomend" value="si" checked>
+            Definitivamente
+          </label>
+          <label>
+            <input type="radio" class="input-radio" name="recomend" value="Tal-vez">
+            Tal vez
+          </label>
+          <label>
+            <input type="radio" class="input-radio" name="recomend" value="no">
+            No Creo
+          </label>
         </form>
       </main>
     </div>
